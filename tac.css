@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+.fdiv
+{
+height: 100vh;
+background-color:violet;
+position: relative;
+
+
+}
+.tic
+{
+   
+    background-image:url("https://images.pexels.com/photos/194511/pexels-photo-194511.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
+    background-size: 100% 100%;
+    border-radius: 5%;
+    position: absolute;
+    top:8%;
+    bottom: 8%;
+    left: 35%;
+    right: 35%;
+    background-color: tomato;
+}
+.Heading
+{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background: rgb(131,58,180);
+background: linear-gradient(90deg, rgba(131,58,180,1) 7%, rgba(29,230,253,1) 64%, rgba(252,176,69,1) 90%);    height: 12%;
+    text-align: center;
+
+}
+.Heading h1
+{
+    padding-top: 2%;
+    font-weight: bold;
+    text-transform: uppercase;
+    word-spacing: 15px;
+    text-shadow: 2px 2px 2px blue;
+}
+.startbtn
+{
+    
+    
+    height:88%;
+    text-align: center;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+
+}
+.startbtn button
+{
+    
+    margin-top: 40%;
+    box-shadow:inset 0px -1px 0px -7px #fbafe3;
+	background:linear-gradient(to bottom, #ff5bb0 5%, #ef027d 100%);
+	background-color:#ff5bb0;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:30px;
+	font-weight:bold;
+	padding:9px 25px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #c70067;
+    border:none;
+    transition: 0.5s ease;
+    transition-property: all;
+}
+.startbtn button:hover
+{
+background:linear-gradient(to bottom, #ef027d 5%, #ff5bb0 100%);
+	background-color:#ef027d;
+    font-size: 40;
+    transition: 0.5s ease;
+}
+
+.sheading
+{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background: linear-gradient(90deg, rgba(131,58,180,1) 7%, rgba(29,230,253,1) 64%, rgba(252,176,69,1) 90%);    height: 12%;
+   
+    height: 12%;
+    text-align: center;
+}
+.sheading h1
+{
+    font-weight: bold;
+    padding-top:2%;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+#clm
+{
+font-size: 40px;
+}
+
+.game
+{
+    height: 76%;
+ 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    column-gap: 2%;
+    row-gap: 2%;
+    padding-top: 2%;
+   
+}
+.bottomheading
+{
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background: linear-gradient(90deg, rgba(131,58,180,1) 7%, rgba(29,230,253,1) 64%, rgba(252,176,69,1) 90%);    height: 12%;
+   
+    height: 12%;
+    text-align: center;
+
+}
+.bottomheading h1
+{
+    font-weight: bold;
+    padding-top:2%;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.game button
+{
+width: 80%;
+height: 80%;
+margin-left:10%;
+margin-right: 10%;
+margin-top: 7%;
+cursor: pointer;
+font-size: 200%;
+font-weight: bold;
+border-radius: 15%;
+border:none;
+background: rgb(63,94,251);
+background: radial-gradient(circle, rgba(63,94,251,1) 100% , rgba(252,70,70,0.8692519244025736) 50%, rgba(63,94,251,1) 100%);
+
+}
+.win
+{
+    background-image:url("https://images.pexels.com/photos/226737/pexels-photo-226737.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
+    background-size: 100% 100%;
+    height: 35%;
+    padding-top: 20%;
+}
+.win h1
+{
+    background-color: rgba(0, 0, 0, 0.349);
+    text-align: center;
+    font-size: 35px;
+ 
+    font-weight: bold;
+    text-transform: uppercase;
+    color:white;
+    text-shadow:2px 2px 5px red;
+}
+.wbtn
+{
+    text-align: center;
+    padding-top: 10%;
+}
+.wbtn button
+{
+    font-size: 40px;
+     margin-top: 4%;
+    padding: 3%;
+   border-radius: 20px;
+    width: 250px;
+    height: 110px;
+    cursor: pointer;
+    border: none;
+    text-align: center;
+    background: rgb(63,94,251);
+background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,70,0.8692519244025736) 100%);
+}
+.wbtn button:hover
+{
+background: rgb(63,94,251);
+background: radial-gradient(circle, rgba(252,70,70,0.8692519244025736) 100%);
+}
+.hide
+{
+    display:none;
+}
