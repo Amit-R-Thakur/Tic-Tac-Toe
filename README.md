@@ -1,3 +1,3 @@
 # Tic-Tac-Toe
 Tic tac Toe  Game ........
-##For Demo click->https://amit-r-thakur.github.io/Tic-Tac-Toe/
+##<a href="https://amit-r-thakur.github.io/Tic-Tac-Toe/">Click Here to Play </a>
