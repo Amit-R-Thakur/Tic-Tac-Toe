@@ -1,3 +1,2 @@
 # Tic-Tac-Toe
-Tic tac Toe  Game ........
-##<a href="https://amit-r-thakur.github.io/Tic-Tac-Toe/">Click Here to Play </a>
+<a href="https://amit-r-thakur.github.io/Tic-Tac-Toe/">Click Here to Play </a>
