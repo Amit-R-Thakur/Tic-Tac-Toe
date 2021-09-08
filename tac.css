@@ -193,3 +193,28 @@ background: radial-gradient(circle, rgba(252,70,70,0.8692519244025736) 100%);
 {
     display:none;
 }
+
+
+
+
+
+
+
+
+/*Code For Responsive...................*/
+
+
+@media only screen and (max-width:750px)
+{
+    .tic
+    {
+  
+    left: 3%;
+    right: 3%;
+    top:2%;
+    bottom: 2%;
+   
+     }
+    
+
+}
